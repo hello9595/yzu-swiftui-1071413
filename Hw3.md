@@ -1,10 +1,14 @@
+<h1>Hw3</h1>
+    
+```swift
+
 import SwiftUI
 
 struct TitleView: View {
     var body: some View {
-        VStack(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/, spacing: 2){
+        VStack(alignment: .center, spacing: 2){
             Text("1071413的").font(.system(size:30))
-            Text("冰箱").font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/).foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/).bold()
+            Text("冰箱").font(.title).foregroundColor(.blue).bold()
         }
     }
 }
@@ -15,10 +19,10 @@ struct FoodView: View {
     var imageName:String
     var body: some View {
         VStack{
-            Image(imageName).resizable().aspectRatio(contentMode: .fit).frame(width: UIScreen.screenWidth/2 , alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-            Text(imageName.capitalized).fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/).font(.system(size:20))
+            Image(imageName).resizable().aspectRatio(contentMode: .fit).frame(width: UIScreen.screenWidth/2 , alignment: .center)
+            Text(imageName.capitalized).fontWeight(.bold).font(.system(size:20))
         }.padding(.all,2)
-        .frame(minWidth: 0, idealWidth: 100, maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, minHeight: 100, idealHeight: 0, maxHeight: .infinity, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+        .frame(minWidth: 0, idealWidth: 100, maxWidth: .infinity, minHeight: 100, idealHeight: 0, maxHeight: .infinity, alignment: .center)
     }
 }
 struct FishView: View {
@@ -50,3 +54,8 @@ struct ContentView: View {
         }
     }
 }
+
+```
+
+<img width="40%"  src="https://raw.githubusercontent.com/ncudemo/yzu-swiftui-1121-864106/main/hw1-20231002-1.png">
+

@@ -31,3 +31,5 @@ struct ContentView: View{
 }
 
 ```
+
+<img width="40%"  src="https://github.com/hello9595/yzu-swiftui-1071413/blob/b12ca92159eee40d0ae690d3e294cbf40bc0496c/hw2-video.mp4">
